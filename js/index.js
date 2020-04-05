@@ -3,7 +3,7 @@ let template;
 let reg = /%/gi;
 
 for (; true; ) {
-  template = prompt("Enter template");
+  template = prompt("Enter template(format: example %3 %2 %1");
 
   if (template.includes("%") === false) {
     alert("Incorrect");
